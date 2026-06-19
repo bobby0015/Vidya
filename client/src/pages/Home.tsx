@@ -1,8 +1,10 @@
+import CourseCard from "../components/card/CourseCard"
 import Carousel from "../components/Carousel"
 import { firstSectionCardContent } from '../data/home'
+import { popularCourses } from "../data/home"
 
 const Home = () => {
-  console.log(firstSectionCardContent)
+
   return (
     <>
       <div className="">
@@ -27,6 +29,27 @@ const Home = () => {
                   <h1 className="my-3 text-2xl font-semibold  ">{card.title}</h1>
                   <p className="mt-4 text-center">{card.desc}</p>
                 </div>
+              ))
+            }
+          </div>
+        </section>
+        <section className="my-24">
+          <div className="w-[60%] m-auto text-center">
+            <h1 className="text-4xl font-bold">Popular Online Courses</h1>
+            <p className="text-center mt-6 text-lg font-semibold">Explore our most sought-after courses designed to help you <br /> master in-demand skills, build real-world projects, and accelerate your career growth.</p>
+          </div>
+          <div className="w-[70%] mt-16 mx-auto grid grid-cols-4 gap-x-8 gap-y-12">
+            {
+              popularCourses.map((course) => (
+                <CourseCard
+                  key={course.id}
+                  title={course.title}
+                  teacher={course.instructor}
+                  img={course.image}
+                  desc={course.description}
+                  rating={course.rating}
+                  price={course.price}
+                />
               ))
             }
           </div>
