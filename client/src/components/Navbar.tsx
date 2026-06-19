@@ -1,5 +1,5 @@
 import { FaFacebookF, FaInstagramSquare, FaPencilAlt, FaRegUser, FaTwitter } from "react-icons/fa"
-import vidya from '../assets/brand/VIDYA.png'
+import Vidya from '../assets/brand/VIDYA.png'
 import { LiaSearchSolid } from "react-icons/lia"
 import { RiMenuFill, RiShoppingBag2Fill } from "react-icons/ri"
 
@@ -28,7 +28,7 @@ const Navbar = () => {
             {/* bottom nav */}
             <div className="px-52 flex justify-between items-center">
                 <div>
-                    <img width={199} height={133} src={vidya} alt="Vidya" />
+                    <img width={199} height={133} src={Vidya} alt="Vidya" />
                 </div>
                 <div className="flex items-center">
                     <ul className="flex">
