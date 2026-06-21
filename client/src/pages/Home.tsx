@@ -1,5 +1,6 @@
 import CourseCard from "../components/card/CourseCard"
 import Carousel from "../components/Carousel"
+import Heading from "../components/Heading/Heading"
 import { firstSectionCardContent } from '../data/home'
 import { popularCourses } from "../data/home"
 
@@ -11,11 +12,7 @@ const Home = () => {
         <Carousel />
         <section className="my-20">
           <div className="flex items-center justify-center relative">
-            <h1 className="text-[150px] text-[#e3eaf0]" style={{ fontFamily: "'Nothing You Could Do', cursive" }}>learn</h1>
-            <div className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center">
-              <h2 className="text-2xl font-semibold mb-2 text-[#04d2c8]">Guaranteed Success</h2>
-              <h3 className="text-5xl font-bold">Our Services</h3>
-            </div>
+            <Heading h1="learn" h1SizeinPx={150} h2="Guaranteed Success" h3="Our Services" />
           </div>
           <div className="flex items-center justify-center mb-24">
             <p className="w-250 text-xl text-center">Empowering learners with industry-focused courses, hands-on projects, and personalized learning experiences designed to build real-world skills and career confidence.</p>
