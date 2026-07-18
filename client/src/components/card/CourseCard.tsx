@@ -4,15 +4,14 @@ interface propType {
     title: string,
     img: string,
     desc: string,
-    teacher: string
-    key: number,
+    teacher: string,
     rating: number,
     price: number
 }
 
 const CourseCard = (props: propType) => {
   return (
-    <div key={props.key} className="bg-white shadow-xl text-black rounded-md">
+    <div className="bg-white shadow-xl text-black rounded-md">
       <img className="h-50 w-full" src={props.img} alt={props.title} />
       <div className="m-4">
         <div className="h-40">

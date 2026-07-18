@@ -137,3 +137,86 @@ export const learningFeatures = [
       "Join a growing community of learners who have transformed their skills, built real-world projects, and achieved their career goals."
   }
 ];
+
+export const popularCourseCategories = [
+    {
+      "id": 1,
+      "title": "Artificial Intelligence & ML",
+      "slug": "artificial-intelligence-ml",
+      "icon": "Brain",
+      "href": "/courses/artificial-intelligence-ml"
+    },
+    {
+      "id": 2,
+      "title": "MERN Stack Development",
+      "slug": "mern-stack-development",
+      "icon": "Laptop",
+      "href": "/courses/mern-stack-development"
+    },
+    {
+      "id": 3,
+      "title": "Cybersecurity Essentials",
+      "slug": "cybersecurity-essentials",
+      "icon": "Shield",
+      "href": "/courses/cybersecurity-essentials"
+    },
+    {
+      "id": 4,
+      "title": "Agile Project Management",
+      "slug": "agile-project-management",
+      "icon": "Users",
+      "href": "/courses/agile-project-management"
+    },
+    {
+      "id": 5,
+      "title": "Data Structures & Algorithms",
+      "slug": "data-structures-algorithms",
+      "icon": "Database",
+      "href": "/courses/data-structures-algorithms"
+    }
+  ]
+
+  export const quickLinks = [
+    {
+      "id": 1,
+      "title": "All Courses",
+      "slug": "all-courses",
+      "icon": "BookOpen",
+      "href": "/courses"
+    },
+    {
+      "id": 2,
+      "title": "Instructor Community",
+      "slug": "instructor-community",
+      "icon": "UserRound",
+      "href": "/community/instructors"
+    },
+    {
+      "id": 3,
+      "title": "Upcoming Events",
+      "slug": "upcoming-events",
+      "icon": "CalendarDays",
+      "href": "/events"
+    },
+    {
+      "id": 4,
+      "title": "Vidya Blog",
+      "slug": "vidya-blog",
+      "icon": "MessageSquare",
+      "href": "/blog"
+    },
+    {
+      "id": 5,
+      "title": "Contact Support",
+      "slug": "contact-support",
+      "icon": "Headphones",
+      "href": "/contact"
+    },
+    {
+      "id": 6,
+      "title": "FAQs & Help",
+      "slug": "faqs-help",
+      "icon": "CircleHelp",
+      "href": "/faq"
+    }
+  ]

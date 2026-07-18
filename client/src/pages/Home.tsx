@@ -2,7 +2,7 @@ import CourseCard from "../components/card/CourseCard"
 import Carousel from "../components/Carousel"
 import Heading from "../components/Heading/Heading"
 import { firstSectionCardContent } from '../data/home'
-import { popularCourses, learningFeatures} from "../data/home"
+import { popularCourses, learningFeatures } from "../data/home"
 
 const Home = () => {
 
@@ -55,18 +55,18 @@ const Home = () => {
           <div className="flex items-center justify-center relative">
             <Heading h1="process" h1SizeinPx={150} h2="Research & Pedagogy" h3="How It Works?" />
           </div>
-          <div className="bg-cover flex justify-between bg-center h-64 w-[70%] my-16 mx-auto" style={{backgroundImage : 'url(https://ik.imagekit.io/divyam149193/Vidya/process-background-line.png)'}}>
-          {
-            learningFeatures.map((data)=>(
-              <div key={data.id} className="">
-                <img src={data.image} alt={data.title} />
-                <div className="text-center mt-6">
-                  <h1 className="text-xl font-semibold">{data.title}</h1>
-                  <p className="text-[#929292]">{data.description}</p>
+          <div className="bg-cover flex justify-between bg-center h-64 w-[70%] my-16 mx-auto" style={{ backgroundImage: 'url(https://ik.imagekit.io/divyam149193/Vidya/process-background-line.png)' }}>
+            {
+              learningFeatures.map((data) => (
+                <div key={data.id} className="">
+                  <img src={data.image} alt={data.title} />
+                  <div className="text-center mt-6">
+                    <h1 className="text-xl font-semibold">{data.title}</h1>
+                    <p className="text-[#929292]">{data.description}</p>
+                  </div>
                 </div>
-              </div>
-            ))
-          } 
+              ))
+            }
           </div>
         </section>
       </div>
