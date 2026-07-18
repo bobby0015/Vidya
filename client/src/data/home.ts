@@ -106,3 +106,34 @@ export const popularCourses = [
     price: 2499,
   },
 ];
+
+export const learningFeatures = [
+  {
+    id: 1,
+    title: "Industry-Focused Learning",
+    image: "https://ik.imagekit.io/divyam149193/Vidya/facility.png",
+    description:
+      "Access expertly curated courses designed to help you master in-demand skills and stay ahead in today's competitive technology landscape."
+  },
+  {
+    id: 2,
+    title: "E-Learning Platform",
+    image: "https://ik.imagekit.io/divyam149193/Vidya/Elearning.png",
+    description:
+      "Learn anytime, anywhere through an interactive online platform featuring personalized learning paths and progress tracking."
+  },
+  {
+    id: 3,
+    title: "Beginner-Friendly Courses",
+    image: "https://ik.imagekit.io/divyam149193/Vidya/KidsCourses.png",
+    description:
+      "Start your journey with structured courses designed for beginners, making complex concepts easy to understand and apply."
+  },
+  {
+    id: 4,
+    title: "Student Success Stories",
+    image: "https://ik.imagekit.io/divyam149193/Vidya/beststudents.png",
+    description:
+      "Join a growing community of learners who have transformed their skills, built real-world projects, and achieved their career goals."
+  }
+];
